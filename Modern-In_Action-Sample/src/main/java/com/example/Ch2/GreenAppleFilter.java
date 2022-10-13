@@ -20,13 +20,23 @@ public class GreenAppleFilter {
     public static void main(String[] args) {
         List<Apple> inventory = new ArrayList<>();
         inventory.add(new Apple(Color.GREEN));
-        System.out.println(filterGrreenApples(inventory));
+        System.out.println(filterGrreenApples(inventory, Color.GREEN));
     }
 
-    public static List<Apple> filterGrreenApples(List<Apple> inventory){
+/*    public static List<Apple> filterGrreenApples(List<Apple> inventory){
         List<Apple> result = new ArrayList<>();
         for(Apple apple : inventory){
             if(Color.GREEN == apple.getColor()){
+                result.add(apple);
+            }
+        }
+        return result;
+    }*/
+
+    public static List<Apple> filterGrreenApples(List<Apple> inventory, Color color){
+        List<Apple> result = new ArrayList<>();
+        for(Apple apple : inventory){
+            if(apple.getColor() == color){
                 result.add(apple);
             }
         }
