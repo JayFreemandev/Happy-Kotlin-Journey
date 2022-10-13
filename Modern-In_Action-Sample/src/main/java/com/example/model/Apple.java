@@ -17,8 +17,13 @@ import lombok.Setter;
 @Setter
 public class Apple {
     private Color color;
+    private int weight;
 
     public Apple(Color color) {
         this.color = color;
+    }
+
+    public Apple(int weight) {
+        this.weight = weight;
     }
 }

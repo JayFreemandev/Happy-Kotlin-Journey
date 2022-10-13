@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48ccdab6-17bc-47f2-aa14-4a10c207e3fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/model/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/model/Apple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,11 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../web/지갑" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.Ch2" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.GreenAppleFilter">
     <configuration name="GreenAppleFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -77,7 +82,7 @@
       <updated>1665641352262</updated>
       <workItem from="1665641353556" duration="117000" />
       <workItem from="1665642624004" duration="147000" />
-      <workItem from="1665642835932" duration="3269000" />
+      <workItem from="1665642835932" duration="4922000" />
     </task>
     <servers />
   </component>
@@ -98,15 +103,23 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/AppleGreenColorPredicate.java</url>
-          <line>17</line>
-          <properties class="com.example.Ch2.AppleGreenColorPredicate" method="test">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Color.GREEN == apple.getColor()" />
+        <watch expression="applePredicate.test(apple)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
