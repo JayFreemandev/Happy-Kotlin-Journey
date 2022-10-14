@@ -5,13 +5,11 @@
  */
 package com.example.Ch2;
 
-import com.example.model.Apple;
-
 /**
- * ApplePrintPredicate.java
+ * ApplePredicate.java
  *
  * @author Jaeyun Jeong
  */
-public interface ApplePrintPredicate {
-    String test (Apple apple);
+public interface Predicate<T> {
+    boolean test (T t);
 }

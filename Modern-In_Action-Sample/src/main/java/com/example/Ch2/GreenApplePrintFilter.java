@@ -19,16 +19,16 @@ import java.util.List;
 public class GreenApplePrintFilter {
     public static void main(String[] args) {
         List<Apple> inventory = new ArrayList<>();
-        inventory.add(new Apple(Color.GREEN));
-        System.out.println(prettyPrintApple(inventory, new AppleGreenColorPredicate()));
+        inventory.add(new Apple(45));
+        inventory.add(new Apple(160));
+        System.out.println(prettyPrintApple(inventory, new HeavyaAppleWeightPredicate()));
     }
 
-    public static List<Apple> prettyPrintApple(List<Apple> inventory, ApplePredicate applePredicate){
+    public static List<Apple> prettyPrintApple(List<Apple> inventory, ApplePrintPredicate applePrintPredicate){
         List<Apple> result = new ArrayList<>();
         for(Apple apple : inventory){
-            if(applePredicate.test(apple)){
-                result.add(apple);
-            }
+            String output = applePrintPredicate.test(apple);
+            System.out.println(output);
         }
         return result;
     }

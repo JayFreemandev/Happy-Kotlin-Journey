@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48ccdab6-17bc-47f2-aa14-4a10c207e3fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/MeaningOfThis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/model/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/model/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/ApplePrintPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/ApplePrintPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/AppleWeightPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/AppleWeightPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenApplePrintFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenApplePrintFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/HeavyaAppleWeightPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/HeavyaAppleWeightPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/LamdaList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/LamdaList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/Predicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +52,35 @@
       <recent name="com.example.Ch2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GreenAppleFilter">
+  <component name="RunManager" selected="Application.MeaningOfThis">
     <configuration name="GreenAppleFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Ch2.GreenAppleFilter" />
+      <module name="Modern-In_Action-Sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Ch2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreenApplePrintFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Ch2.GreenApplePrintFilter" />
+      <module name="Modern-In_Action-Sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Ch2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeaningOfThis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Ch2.MeaningOfThis" />
       <module name="Modern-In_Action-Sample" />
       <extension name="coverage">
         <pattern>
@@ -68,6 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MeaningOfThis" />
+        <item itemvalue="Application.GreenApplePrintFilter" />
         <item itemvalue="Application.GreenAppleFilter" />
       </list>
     </recent_temporary>
@@ -82,7 +117,7 @@
       <updated>1665641352262</updated>
       <workItem from="1665641353556" duration="117000" />
       <workItem from="1665642624004" duration="147000" />
-      <workItem from="1665642835932" duration="4922000" />
+      <workItem from="1665642835932" duration="7634000" />
     </task>
     <servers />
   </component>
@@ -101,24 +136,11 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="Color.GREEN == apple.getColor()" />
         <watch expression="applePredicate.test(apple)" />
+        <watch expression="this.value" />
       </configuration>
     </watches-manager>
   </component>

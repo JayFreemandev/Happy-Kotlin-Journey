@@ -15,5 +15,5 @@ import com.example.model.Color;
  */
 public class HeavyaAppleWeightPredicate implements ApplePrintPredicate{
     @Override
-    public boolean test(Apple apple) {return apple.getWeight() > 100 ? true : false;}
+    public String test(Apple apple) {return apple.getWeight() > 100 ? "무거움" : "가벼움";}
 }

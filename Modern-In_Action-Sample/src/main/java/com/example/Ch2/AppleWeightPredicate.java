@@ -15,7 +15,7 @@ import com.example.model.Color;
  */
 public class AppleWeightPredicate implements ApplePrintPredicate{
     @Override
-    public boolean test(Apple apple) {
-        return Color.GREEN == apple.getColor();
+    public String test(Apple apple) {
+        return String.valueOf(apple.getWeight());
     }
 }
