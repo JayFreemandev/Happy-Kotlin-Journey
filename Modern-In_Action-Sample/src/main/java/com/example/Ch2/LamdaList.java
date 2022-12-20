@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class LamdaList {
     public static void main(String[] args) {
-        List<Apple> redApples = filter(inven)
+       // List<Apple> redApples = filter(inven)
     }
 
     public static List<Apple> filterGrreenApples(List<Apple> inventory){
