@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48ccdab6-17bc-47f2-aa14-4a10c207e3fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/MeaningOfThis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/ApplePrintPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/ApplePrintPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/AppleWeightPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/AppleWeightPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenAppleFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenApplePrintFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/GreenApplePrintFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/HeavyaAppleWeightPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/HeavyaAppleWeightPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/LamdaList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/LamdaList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modern-In_Action-Sample/src/main/java/com/example/Ch2/Predicate.java" afterDir="false" />
-    </list>
+    <list default="true" id="48ccdab6-17bc-47f2-aa14-4a10c207e3fa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,21 +22,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2G4IInoBkkpafTd0FIU49Cmcwur" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../web/지갑" />
-    <property name="settings.editor.selected.configurable" value="MTHome" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Happy-Kotlin-Journey",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.Ch2" />
@@ -118,6 +115,7 @@
       <workItem from="1665641353556" duration="117000" />
       <workItem from="1665642624004" duration="147000" />
       <workItem from="1665642835932" duration="7634000" />
+      <workItem from="1671801902882" duration="51000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,31 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Architecting_Java_Best_Practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Architecting_Java_Best_Practice/java-best-practices" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Architecting_Java_Best_Practice/java-best-practices/images" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Architecting_Java_Best_Practice/java-best-practices/pdf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design_Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design_Pattern/DesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design_Pattern/DesignPattern/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design_Pattern/DesignPattern/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design_Pattern/DesignPattern/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Style_Guide" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Style_Guide/java-style-guide" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Style_Guide/java-style-guide/configs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Style_Guide/java-style-guide/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lambdas_And_Streams_Best_Practices" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lambdas_And_Streams_Best_Practices/lambdas-and-streams-best-practices" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modern-In_Action-Sample" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modern-In_Action-Sample/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modern-In_Action-Sample/.mvn" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modern-In_Action-Sample/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modern-In_Action-Sample/target" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Selenium_Best_Practices" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Selenium_Best_Practices/Selenium-best-practices" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
