@@ -10,9 +10,6 @@
         <module name="Modern-In_Action-Sample" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Modern-In_Action-Sample" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

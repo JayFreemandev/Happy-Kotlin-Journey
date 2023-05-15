@@ -38,10 +38,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Happy-Kotlin-Journey",
+    "last_opened_file_path": "C:/Users/정재윤/Documents/Github/Happy-Kotlin-Journey",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -116,6 +117,7 @@
       <workItem from="1665642624004" duration="147000" />
       <workItem from="1665642835932" duration="7634000" />
       <workItem from="1671801902882" duration="51000" />
+      <workItem from="1684162234159" duration="140000" />
     </task>
     <servers />
   </component>
