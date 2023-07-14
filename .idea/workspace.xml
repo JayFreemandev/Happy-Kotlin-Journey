@@ -38,7 +38,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/정재윤/Documents/Github/Happy-Kotlin-Journey",
+    "last_opened_file_path": "C:/Users/mypc2023/Documents/Happy-Kotlin-Journey",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -118,6 +122,7 @@
       <workItem from="1665642835932" duration="7634000" />
       <workItem from="1671801902882" duration="51000" />
       <workItem from="1684162234159" duration="140000" />
+      <workItem from="1689322058623" duration="783000" />
     </task>
     <servers />
   </component>

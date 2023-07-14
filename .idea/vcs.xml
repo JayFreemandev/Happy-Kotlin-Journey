@@ -2,10 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Architecting_Java_Best_Practice/java-best-practices" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Design_Pattern/DesignPattern" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Java_Style_Guide/java-style-guide" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Lambdas_And_Streams_Best_Practices/lambdas-and-streams-best-practices" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Selenium_Best_Practices/Selenium-best-practices" vcs="Git" />
   </component>
 </project>
