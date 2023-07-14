@@ -4,6 +4,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import org.junit.jupiter.api.function.Executable;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +28,38 @@ class BMICalculatorTest {
         // then
         assertTrue(isDietRecommand);
     }
+
+    @ParameterizedTest
+    @ValueSource(doubles = {30.0, 75.0, 95.0, 144.0})
+    @DisplayName("173cm일때 다이어트가 필요합니까?")
+    void dietRequiredParameter(Double coderWeight){
+        // given
+        double weight = coderWeight;
+        double height = 1.73;
+
+        // when
+        boolean isDietRecommand = BMICalculator.isDietRecommended(weight, height);
+
+        // then
+        assertTrue(isDietRecommand);
+    }
+
+    @ParameterizedTest(name = "weight={0}, height{1}")
+    @CsvSource(value = {"120, 1.83", "11, 1.20"})
+    @DisplayName("다이어트가 필요합니까?")
+    void dietRequiredParameterBoth(Double coderWeight, Double coderHeight){
+        // given
+        double weight = coderWeight;
+        double height = coderHeight;
+
+        // when
+        boolean isDietRecommand = BMICalculator.isDietRecommended(weight, height);
+
+        // then
+        assertTrue(isDietRecommand);
+    }
+
+
 
     @Test
     @DisplayName("키가 0이면?")
